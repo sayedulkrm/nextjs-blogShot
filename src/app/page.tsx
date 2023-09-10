@@ -7,7 +7,7 @@ import Menu from "@/components/utils/Menu/Menu";
 
 const Home = () => {
     return (
-        <div className="max-w-[1400px] m-auto h-full">
+        <main className="max-w-[1400px] m-auto h-full">
             <div className="w-full h-full p-5">
                 <Featured />
                 <CategoryList />
@@ -17,7 +17,7 @@ const Home = () => {
                     <Menu />
                 </div>
             </div>
-        </div>
+        </main>
     );
 };
 
