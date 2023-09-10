@@ -1,0 +1,25 @@
+.container {
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+    gap: 15px;
+
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 5px;
+}
+
+/* Define initial and final positions */
+.move-left {
+    transform: translateX(-100%);
+}
+
+.move-right {
+    transform: translateX(100%);
+}
+
+/* Add the transition effect */
+.transition-all {
+    transition: transform 0.3s ease; /* You can adjust the duration and timing function as needed */
+}
